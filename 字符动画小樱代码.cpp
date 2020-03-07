@@ -8,7 +8,7 @@ int main()
 {
 	system("color f0");
     long i;
-	char FileName[100], hi[13200];/*这里是字符数组,用来存储从文件打开的字符串*/
+	char FileName[100], hi[132000];/*这里是字符数组,用来存储从文件打开的字符串*/
 	FILE *in;
 	//getch(); 
     printf("3\n");
